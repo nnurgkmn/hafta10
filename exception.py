@@ -1,3 +1,5 @@
+
+#this is what i  tried and did by myself
 import sys
 
 def uret(str):
@@ -16,3 +18,20 @@ def uret(str):
 
 nur=sys.argv
 x,y=uret(nur)
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#with the teacher's help
+
+import sys
+
+def uret(str):
+    a=''
+    b=0
+    k = str[2]
+    l= str [3]
+    a= k.split('=')[1]
+    b= l.split('=') [1]
+    return a,b
+
+    y=uret(sys.argv)
